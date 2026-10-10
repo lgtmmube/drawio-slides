@@ -1,0 +1,31 @@
+# Dependencies and generated application files
+node_modules/
+dist/
+public/editor/
+
+# Local verification results and exports
+verification/
+test-results/
+playwright-report/
+coverage/
+*.pptx
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+
+# Temporary and OS files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
